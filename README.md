@@ -1,47 +1,16 @@
-# Finance-Dashboard
-Project Overview
+# React + Vite
 
-The Finance Dashboard is a modern, interactive frontend application built with React.js.
-It allows users to track financial activity, explore transactions, and gain insights into their spending patterns.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-This project demonstrates:
+Currently, two official plugins are available:
 
-Clean, responsive UI
-Basic Role-Based UI (Viewer/Admin)
-Charts for balance trends and spending breakdown
-State management with React state and localStorage
-Transaction search, filtering, and CSV export
-Features
-Dashboard Overview
-Summary cards for:
-Total Balance
-Income
-Expenses
-Visualizations:
-Line chart for balance trend
-Pie chart for spending breakdown
-Transactions Section
-Table with transaction details:
-Date, Category, Amount, Type (income/expense)
-Search and filter by category
-CSV export of transactions
-Add transaction (Admin role)
-Role-Based UI
-Viewer: Read-only access
-Admin: Can add new transactions
-Switch roles with a dropdown
-Insights
-Highest spending category
-Monthly comparison
-Useful data observations
-Additional Features
-Dark mode toggle
-Data persistence with localStorage
-Responsive for mobile and desktop
-Smooth UI with modern cards and tables
-Technologies Used
-Frontend Framework: React.js
-Charts: Recharts (LineChart, PieChart)
-State Management: React useState, useEffect
-Styling: CSS (Modern cards, responsive design)
-Data Storage: localStorage (persists transactions after refresh)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
